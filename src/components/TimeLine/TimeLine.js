@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, Span, } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -46,10 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      It's my pleasure to introduce my self..well, I'm pursuing my B-Tech in stream of Electronics and Communication engineering with specialization in internet of things from
-                NSUT. I'm a district level Table Tennis Player.
-                My strengths are my attitude that i like to take challenges that I CAN do it,my way of thinking that i 
-                take both success and failure in a balanced manner..
+      It's my pleasure to introduce myself. Well, I'm pursuing my B-Tech in <Span>Electronics and Communication Engineering with specialization in the Internet of Things</Span> from
+                NSUT. I'm a district-level Table Tennis Player.
+                My strengths are my attitude that I like to take on challenges that I can do, my way of thinking that i 
+                take both success and failure in a balanced manner.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

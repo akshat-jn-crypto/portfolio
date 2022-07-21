@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'CANSAT GUI',
-    description: "Using Qt Software, I build a Graphic User Interface - from start to finish. The GUI was used to display status of the satellite launched in N.A.S.A launchbase in Virginia",
+    description: "Using Qt Software, I build a Graphic User Interface - from start to finish. The GUI was used to display status of the satellite launched in NASA launchbase in Virginia",
       image: '/images/1.jpeg',
       tags: ['Qt', 'Figma', 'Cpp', 'Ui/UX'],
     source: 'https://github.com/akshat-jn-crypto/CANSAT_GUI',
@@ -9,8 +9,8 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Weather Pridictor',
-    description:"While building the previous project I got the idea to build this, weather pridictor. I trained my model sing the data we collected from satellite and pridicted various weather aspects like percipitation levels etc",
+    title: 'Weather Predictor',
+    description:"While building the previous project I got the idea to build this, weather predictor. I trained my model using the data we collected from satellite and predicted various weather aspects like precipitation levels etc",
     image: '/images/2.png',
     tags: ['Python', 'ML'],
     source: 'https://github.com/akshat-jn-crypto/weather_forcast_model',

@@ -38,7 +38,9 @@ export const CarouselMobileScrollNode = styled.div`
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
 `
-
+export const Span = styled.span`
+font-weight: bold;
+`;
 
 export const CarouselItem = styled.div`
   background: none;
