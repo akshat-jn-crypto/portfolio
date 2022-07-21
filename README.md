@@ -1,14 +1,12 @@
 ## Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+### [Live Site](https://portfolio-hazel-tau.vercel.app/)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/78645765/180206440-3a5bffcb-5203-4105-9ced-99bca5a46e7c.png">
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
-
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
+This is a code repository for my personal portfolio.Made using React and Next.js.
 
 Setup:
 - run ```npm i && npm start```
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+
