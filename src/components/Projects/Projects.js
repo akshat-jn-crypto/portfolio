@@ -12,7 +12,11 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
+          {p.image.endsWith('.mp4') ? (
+            <video src={p.image} autoPlay loop muted playsInline style={{width: '100%', objectFit: 'cover'}} />
+          ) : (
+            <Img src={p.image} />
+          )}
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />

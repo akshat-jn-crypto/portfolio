@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Spoofing-Aware Fake Audio Detector',
     description: 'Deep-learning voice spoofing detection system using frozen Wav2Vec2 embeddings with a custom CNN-LSTM (5-window sliding temporal context) to detect AI-generated voice clones and deepfakes. Deployed as a FastAPI service with an interactive dashboard; CI/CD via GitHub Actions on Hugging Face Spaces.',
-    image: '/images/1.jpeg',
+    image: '/images/5.mp4',
     tags: ['Python', 'PyTorch', 'Wav2Vec2', 'CNN-LSTM', 'FastAPI', 'Docker'],
     source: 'https://huggingface.co/spaces/jnakshat/fakevoicedetector',
     visit: 'https://huggingface.co/spaces/jnakshat/fakevoicedetector',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Expense Management System',
     description: 'Full-stack MERN personal finance app with JWT-based auth, income/expense transaction management, date-range and category filtering, and analytics dashboards. Deployed with a split-hosted architecture: React SPA on Vercel, Express REST API on Render, and MongoDB Atlas as cloud database.',
-    image: '/images/2.png',
+    image: '/images/6.mp4',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Ant Design', 'Vercel'],
     source: 'https://money-manager-byakshat.vercel.app',
     visit: 'https://money-manager-byakshat.vercel.app',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Generative AI RAG Chatbot',
     description: 'Production-grade RAG chatbot on AWS. Ingested and indexed 1,000+ documents via S3 and OpenSearch Serverless; integrated AWS Bedrock with Claude and Titan embeddings. Achieved sub-2s latency and 90%+ answer relevance.',
-    image: '/images/3.jpeg',
+    image: '/images/7.jpg',
     tags: ['Python', 'AWS Bedrock', 'AWS S3', 'OpenSearch', 'Lambda', 'LangChain'],
     source: 'https://github.com/akshat-jn',
     id: 2,
@@ -28,11 +28,45 @@ export const projects = [
   {
     title: 'Laptop Price Predictor',
     description: 'End-to-end ML pipeline scraping 1,000+ Amazon listings with BeautifulSoup. Performed data cleaning, EDA, feature engineering, and dimensionality reduction. Benchmarked 8+ algorithms and finalised Random Forest with 95% accuracy.',
-    image: '/images/4.jpeg',
+    image: '/images/8.mp4',
     tags: ['Python', 'BeautifulSoup', 'Pandas', 'Scikit-learn', 'Random Forest'],
     source: 'https://akshat-jn-crypto-amazon-laptops-price-predictor-app-hvj7ek.streamlit.app',
     visit: 'https://akshat-jn-crypto-amazon-laptops-price-predictor-app-hvj7ek.streamlit.app',
     id: 3,
+  },
+  {
+    title: 'CANSAT GUI',
+    description: 'Using Qt Software, I built a Graphic User Interface from start to finish. The GUI was used to display the status of the satellite launched at the NASA launch base in Virginia.',
+    image: '/images/1.jpeg',
+    tags: ['Qt', 'Figma', 'C++', 'UI/UX'],
+    source: 'https://github.com/akshat-jn-crypto/CANSAT_GUI',
+    id: 4,
+  },
+  {
+    title: 'Weather Predictor',
+    description: 'Trained a machine learning model using satellite data collected during the CANSAT project to predict various weather aspects like precipitation levels and other atmospheric conditions.',
+    image: '/images/2.png',
+    tags: ['Python', 'Machine Learning'],
+    source: 'https://github.com/akshat-jn-crypto/weather_forcast_model',
+    visit: 'https://github.com/akshat-jn-crypto/weather_forcast_model',
+    id: 5,
+  },
+  {
+    title: 'KANJO',
+    description: 'A sentiment and emotion analysis application that offers a quick and easy way to analyse thousands of tweets on a certain topic, place, or person and determine the most popular sentiment shown towards it.',
+    image: '/images/3.jpeg',
+    tags: ['Django', 'REST API'],
+    source: 'https://github.com/SaloniGupta1100/Kanjo/blob/main/sentiment_emotion_analysis/sentiment_emotion_analysis/urls.py',
+    id: 6,
+  },
+  {
+    title: 'Autonomous Robot',
+    description: 'Built an autonomous robot using ESP8266 and OpenCV for real-time computer vision-based navigation and object detection.',
+    image: '/images/4.jpeg',
+    tags: ['ESP8266', 'OpenCV', 'Robotics'],
+    source: 'https://drive.google.com/file/d/180gxzf7Jnb9lEbQV4Mk9Q6n5HkqUrB6G/view?usp=sharing',
+    visit: 'https://drive.google.com/file/d/180gxzf7Jnb9lEbQV4Mk9Q6n5HkqUrB6G/view?usp=sharing',
+    id: 7,
   },
 ];
 
