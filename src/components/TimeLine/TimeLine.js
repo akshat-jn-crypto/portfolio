@@ -46,10 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      It's my pleasure to introduce myself. Well, I'm pursuing my B-Tech in <Span>Electronics and Communication Engineering with specialization in the Internet of Things</Span> from
-                NSUT. I'm a district-level Table Tennis Player.
-                My strengths are my attitude that I like to take on challenges that I can do, my way of thinking that i 
-                take both success and failure in a balanced manner.
+        Data Scientist at <Span>Axis Bank</Span> building retail credit risk models and scorecards at scale. I graduated with a B.Tech in <Span>Electronics and Communication Engineering (IoT)</Span> from NSUT, Delhi. I specialise in logistic regression scorecard development, PySpark pipelines, and AWS Bedrock RAG systems — delivering 150+ incremental loan approvals per quarter. International Rank 1 at <Span>NASA CanSat 2021</Span> among 200+ global teams.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

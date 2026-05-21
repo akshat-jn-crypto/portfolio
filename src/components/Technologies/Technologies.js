@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiCode, DiFirebase, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiPython, DiReact, DiDocker } from 'react-icons/di';
+import { FaDatabase, FaChartBar } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,66 +10,71 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies like ML to GUI Design.
+      From ML & AI to cloud infrastructure — building data-driven products at scale.
     </SectionText>
     <List>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
       <ListItem>
         <picture>
           <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Machine Learning</ListTitle>
+          <ListTitle>ML & AI</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            some minor projects.
+            PyTorch, TensorFlow, <br />
+            Scikit-learn, LLMs, NLP, <br />
+            Transformers, Computer Vision
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiCode size="3rem" />
+          <FaDatabase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>DSA</ListTitle>
+          <ListTitle>Data Engineering</ListTitle>
           <ListParagraph>
-          Proficient with <br />
-            Cpp
+            PySpark, Hive, Hadoop, <br />
+            Pandas, NumPy, SQL, <br />
+            SAS, Time-Series Analysis
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiDocker size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud & DevOps</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            AWS (S3, Bedrock, Lambda, <br />
+            OpenSearch), Docker, <br />
+            LangChain, MLOps, RAG
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Web Development</ListTitle>
+          <ListParagraph>
+            React, Node.js, Express, <br />
+            MongoDB, JavaScript, <br />
+            REST APIs, JWT Auth
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaChartBar size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Visualization</ListTitle>
+          <ListParagraph>
+            Power BI, Matplotlib, <br />
+            Seaborn, Dashboard Design, <br />
+            Excel, Reporting
           </ListParagraph>
         </ListContainer>
       </ListItem>
