@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     title: 'Autonomous Robot',
-    description: 'This is a code repository with a corresponding video. In this video, we have shown complete working of our project.',
+    description: 'Built an autonomous robot using ESP8266 and OpenCV for real-time computer vision-based navigation and object detection.',
     image: '/images/4.jpeg',
     tags: ['ESP8266', 'OpenCV', 'Robotics'],
     source: 'https://drive.google.com/file/d/180gxzf7Jnb9lEbQV4Mk9Q6n5HkqUrB6G/view?usp=sharing',
